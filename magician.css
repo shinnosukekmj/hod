@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+
+.title {
+  line-height: 70px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: palevioletred;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  width: 99%;
+}
+
+img {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+}
+
+.magician-box {
+  padding-right: 3px;
+}
+
+.magician-title {
+  text-align: center;
+}
+
+.magician-name {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+footer {
+  width: 100%;
+  height: 30px;
+  background-color: gray;
+  position: relative;
+}
+
+.footer-text > a {
+  line-height: 30px;
+  text-decoration: none;
+  color: whitesmoke;
+  position: absolute;
+  right: 30px;
+}
+
+@media screen and (max-width: 925px) {
+  main {
+    display: block;
+    width: 100%;
+  }
+
+  .magician-box {
+    padding-right: 0;
+  }
+}

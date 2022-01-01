@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+header {
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+#title {
+  font-size: 30px;
+  line-height: 70px;
+  text-align: center;
+  font-family: killingfont;
+}
+
+nav {
+  width: 100%;
+  padding: 20px 0;
+  background-color: gray;
+}
+
+.nav-list {
+  text-align: center;
+}
+
+.nav-item {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+main {
+  width: 99%;
+  background-color: crimson;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+}
+
+.hod-namber {
+  text-align: center;
+}
+
+.boss-name {
+  text-align: center;
+}
+
+#hod1 {
+  width: 50%;
+  margin-top: 20px;
+  padding-right: 3px;
+}
+
+#hod2 {
+  width: 50%;
+  margin-top: 20px;
+}
+
+#hod3 {
+  width: 50%;
+  margin-top: 20px;
+  padding-right: 3px;
+}
+
+#hod4 {
+  width: 50%;
+  margin-top: 20px;
+}
+
+#hodSD {
+  width: 50%;
+  margin-top: 20px;
+  padding-right: 3px;
+}
+
+#last-boss {
+  width: 50%;
+  margin-top: 20px;
+}
+
+.magician {
+  color: black;
+}
+
+.top {
+  height: 20px;
+  position: relative;
+}
+
+.top > a {
+  position: absolute;
+  right: 20px;
+  color: black;
+}
+
+footer {
+  background-color: gray;
+  height: 70px;
+  margin-top: 10px;
+}
+
+footer > p {
+  line-height: 70px;
+  text-align: center;
+}
+
+@media screen and (max-width: 925px) {
+  #title {
+    font-size: 20px;
+  }
+
+  main {
+    display: block;
+    width: 99%;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  #hod1 {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  #hod2 {
+    width: 100%;
+  }
+
+  #hod3 {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  #hod4 {
+    width: 100%;
+  }
+
+  #hodSD {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  #last-boss {
+    width: 100%;
+  }
+}
